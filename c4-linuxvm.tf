@@ -1,5 +1,5 @@
 resource "azurerm_linux_virtual_machine" "linuxvmalias" {
-  name                = "linux-vm-tf"
+  name                = "linuxhost"
   computer_name       = "linuxhost"
   resource_group_name = azurerm_resource_group.myrg1alias.name
   location            = azurerm_resource_group.myrg1alias.location
