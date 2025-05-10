@@ -9,6 +9,7 @@ locals {
     service = local.service_name
     owner   = local.owner
     Tag1    = "CommitAye"
+    Tag2    = "Notification Test"
   }
 }
 
